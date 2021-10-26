@@ -1,0 +1,31 @@
+{
+    "nproc": 10,
+    "test_size": 0.90,
+    "data_dir": "data",
+    "data_subdirs": {
+        "raw": "raw",
+        "interim": "interim",
+        "processed": "processed"
+    },
+    "data_classes": {
+        "class0": {
+            "stage": "apk",
+            "external_dir": "sample_dataset\/Benign",
+            "external_structure": "flat",
+            "sampling": {
+                "method": "random",
+                "n": 4
+            }
+        },
+        "class1": {
+            "stage": "apk",
+            "external_dir": "sample_dataset\/Malware",
+            "external_structure": "flat",
+            "sampling": {
+                "method": "random",
+                "n": 3
+            }
+        }
+    },
+    "hindroid_reduced": true
+}
