@@ -50,6 +50,23 @@ Ensure you have the following installed:
    4. Run the `VGAEMalGAN` notebooks to generate adversarial API graphs:
       - **Option A**: Run `GAN-VAE.ipynb` when GraphSAGE is used as the black-box model.
       - **Option B**: Run `GAN-VAE-CNN.ipynb` when CNN + GraphSAGE is used as the black-box model.
+## How to Cite
+
+If you use this code in your research, please cite our paper as follows:
+
+### BibTeX
+```bibtex
+@article{yumlembam2022iot,
+  title={IoT-based android malware detection using graph neural network with adversarial defense},
+  author={Yumlembam, Rahul and Issac, Biju and Jacob, Seibu Mary and Yang, Longzhi},
+  journal={IEEE Internet of Things Journal},
+  volume={10},
+  number={10},
+  pages={8432--8444},
+  year={2022},
+  publisher={IEEE}
+}
+
 ```
 
 
