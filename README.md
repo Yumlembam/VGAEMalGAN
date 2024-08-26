@@ -31,7 +31,8 @@ The classification process achieved an accuracy of 98.33% on the CICMaldroid dat
 
 Ensure you have the following installed:
 - Python 3.7 or later
-- Required Python libraries (listed in `requirements.txt`)
+- Pytorch
+- Pytroch Geometric
 
 ### Installation
 
