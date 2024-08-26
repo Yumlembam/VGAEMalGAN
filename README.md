@@ -12,7 +12,7 @@ As the Internet of Things (IoT) increasingly relies on Android applications, the
 
 The classification process achieved an accuracy of 98.33% on the CICMaldroid dataset and 98.68% on the Drebin dataset. However, the vulnerability of graph-based deep learning models is highlighted by the ability of attackers to introduce fake relationships in API graphs to evade detection. To address this, we propose VGAE-MalGAN, a Generative Adversarial Network (GAN)-based algorithm designed to attack GNN-based Android malware classifiers. VGAE-MalGAN generates adversarial API graphs that deceive the classifier, reducing its detection accuracy. Experimental analysis shows that while the GNN classifier initially fails to detect these adversarial samples, retraining the model with the generated adversarial samples enhances its robustness against such attacks.
 
-![System Architecture](images/system_architecture.png)(classifier.png)
+![System Architecture](classifier.png)(classifier.jpg)
 ## Getting Started
 
 ### Prerequisites
